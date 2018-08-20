@@ -24,10 +24,9 @@ cc_library_shared {
         "halimpl/bcm2079x/gki/ulinux",
         "halimpl/bcm2079x/gki/common",
         "halimpl/bcm2079x/adaptation",
-        "src/hal/include",
-        "src/hal/int",
-        "src/udrv/include",
-        "src/include",
+        "halimpl/bcm2079x/hal/include",
+        "halimpl/bcm2079x/hal/int",
+        "halimpl/bcm2079x/udrv/include",
     ],
     cflags: [
         "-DBUILDCFG=1",

@@ -9,7 +9,6 @@ cc_library_shared {
         "halimpl/bcm2079x/adaptation/*.cpp",
         "halimpl/bcm2079x/adaptation/*.c",
         "halimpl/bcm2079x/nfc_nci.c",
-        "src/adaptation/CrcChecksum.cpp",
     ],
     header_libs: [
         "libhardware_headers",
